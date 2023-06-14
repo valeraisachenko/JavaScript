@@ -1,29 +1,14 @@
 /*
- * - Переменные и типы примитивов
- * - const и let
- * - Логирование с методом console.log()
- * - Уникальность идентификатора
+ * Используем цикл для вывода только нечетных чисел.
+ * Для чётных i срабатывает continue, выполнение тела прекращается
+ * и управление передаётся на следующую итерацию.
  */
+const number = 10;
 
-const age = 10;
-const totalPrice = 200.74;
-const userName = 'Chelsy';
-const message = 'Добро пожаловать!';
-const isOpen = true;
-const shouldConfirm = false;
+for (let i = 0; i < number; i += 1) {
+  if (i % 2 === 0) {
+    continue;
+  }
 
-/*
- * * - Оператор typeof
- */
-
-const type = typeof isOpen;
-
-console.log(type);
-
-/*
- * - Как window.alert() блокирует интерпретацию
- */
-
-// console.log('До');
-// alert('qweqweqwe');
-// console.log('После');
+  console.log('Нечетное i: ', i); // 1, 3, 5, 7, 9
+}
