@@ -2,11 +2,11 @@
  * Парс числа с Number.parseInt() и Number.parseFloat()
  */
 
-let elementWidth = '50px';
+// let elementWidth = '50px';
 // elementWidth = Number.parseInt(elementWidth);
 // console.log('elementWidth: ', elementWidth);
 
-let elementHeight = '200.74px';
+// let elementHeight = '200.74222px';
 // elementHeight = Number.parseFloat(elementHeight);
 // console.log('elementHeight: ', elementHeight);
 
@@ -14,8 +14,8 @@ let elementHeight = '200.74px';
  * - Метод число.toFixed(digits)
  * - Матрёшки на примере  console.log(Number(число.toFixed(digits)))
  */
-let salary = 1300.16472;
-// salary = Number(salary.toFixed(2));
+// let salary = 1300.16472;
+// salary = Number(salary.toFixed(1));
 
 // console.log(salary);
 
@@ -23,8 +23,8 @@ let salary = 1300.16472;
  * - Приведение (преобразование) к числу с Number(value)
  * - Значение NaN (Not a Number) и метод Number.isNaN(value)
  */
-let quantity = '30';
-let value = 'Эту строку невозможно привести к числу';
+// let quantity = '30';
+// let value = 'Эту строку невозможно привести к числу';
 
 // console.log(Number(quantity));
 // console.log(Number(value));
