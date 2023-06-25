@@ -1,15 +1,15 @@
 /*
  * Длина строки, свойство length
  */
-const message = 'В этой строке 26 символов.';
+// const message = 'В этой строке 27  символов.';
 // console.log(message.length);
 
 /*
  * Конкатенация строк
  */
-const firstName = 'Chelsy';
-const lastName = 'Emerald';
-const fullName = firstName + ' ' + lastName;
+// const firstName = 'Chelsy';
+// const lastName = 'Emerald';
+// const fullName = firstName + '+' + lastName;
 
 // console.log(fullName);
 
@@ -19,8 +19,8 @@ const fullName = firstName + ' ' + lastName;
  * подставив вместо x y z q значения переменных
  */
 
-const room = 716;
-const type = 'VIP';
+// const room = 716;
+// const type = 'VIP';
 
 // const welcomeMsg =
 //   'Гость ' +
@@ -32,7 +32,7 @@ const type = 'VIP';
 //   ' номер ' +
 //   room;
 
-const welcomeMsg = `Гость ${firstName} ${lastName} поселяется в ${type} номер ${room}`;
+// const welcomeMsg = `Гость ${firstName} ${lastName} поселяется в ${type} номер ${room}`;
 // console.log(welcomeMsg);
 
 /*
@@ -40,8 +40,8 @@ const welcomeMsg = `Гость ${firstName} ${lastName} поселяется в 
  * Возвращаемся к составлению строки поселения в отель
  */
 
-const quantity = 15;
-const orderMsg = `Вы заказываете ${quantity} холодильников.`;
+// const fefef = 15;
+// const orderMsg = `Вы заказываете ${fefef} холодильников.`;
 
 // console.log(orderMsg);
 
@@ -50,15 +50,15 @@ const orderMsg = `Вы заказываете ${quantity} холодильник
  */
 
 // let brand = prompt('Давай бренд');
-// brand = brand.toLowerCase();
+// brand = brand.toUpperCase();
 
 // console.log(brand);
 
-let brand = 'SamSUnG';
-// console.log(brand[4]);
-// console.log(brand.slice(1).toLowerCase());
+// let brand = 'SamSUnG';
+// console.log(brand[3]);
+// console.log(brand.slice(0).toLowerCase());
 
-brand = brand[0] + brand.slice(1).toLowerCase();
+// brand = brand[0] + brand.slice(1).toLowerCase();
 
 // console.log(brand);
 

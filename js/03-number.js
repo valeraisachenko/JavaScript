@@ -35,8 +35,8 @@
  * - Exponent operator
  */
 
-// const base = 2;
-// const power = 5;
+// const base = 3;
+// const power = 2;
 
 // const result = Math.pow(base, power);
 // console.log(base ** power);
@@ -47,13 +47,13 @@
  */
 
 //  1. попросить ввести число и сохранить в переменную
-// let base = prompt('Давай число');
+// let base = prompt(2);
 // base = Number(base);
 // console.log(base);
 
 //  2. попросить ввести степень и сохранить в переменную
 
-// let power = prompt('Давай степень');
+// let power = prompt(2);
 // power = Number(power);
 // console.log(power);
 
@@ -64,8 +64,8 @@
 
 /*
  * Генерим псевдослучайные числа
- * - Math.random()
- * - Math.round()
+//  * - Math.random()
+//  * - Math.round()
  */
 // Math.random() * (max - min) + min
 // const max = 80;
@@ -75,14 +75,14 @@
 
 // console.log(result);
 
-// const colors = ['tomato', 'teal', 'orange', 'deeppink', 'skyblue'];
-// const max = colors.length - 1;
-// const min = 0;
+const colors = ['tomato', 'teal', 'orange', 'deeppink', 'skyblue'];
+const max = colors.length - 1;
+const min = 0;
 
-// const index = Math.round(Math.random() * (max - min) + min);
+const index = Math.round(Math.random() * (max - min) + min);
 
-// const color = colors[index];
+const color = colors[index];
 
-// console.log(color);
+console.log(color);
 
-// document.body.style.backgroundColor = color;
+document.body.style.backgroundColor = color;
