@@ -1,20 +1,29 @@
+/*
+ * - Переменные и типы примитивов
+ * - const и let
+ * - Логирование с методом console.log()
+ * - Уникальность идентификатора
+ */
 
+const age = 10;
+const totalPrice = 200.74;
+const userName = 'Chelsy';
+const message = 'Добро пожаловать!';
+const isOpen = true;
+const shouldConfirm = false;
 
-const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
-const loginToFind = 'aj4xth3m4n';
+/*
+ * * - Оператор typeof
+ */
 
+const type = typeof isOpen;
 
-const message = logins.includes(loginToFind)
-  ? `Пользователь ${loginToFind} найден.`
-  : `Пользователь ${loginToFind} не найден.`;
+console.log(type);
 
-console.log(message);
+/*
+ * - Как window.alert() блокирует интерпретацию
+ */
 
-
-
-
-const a = 11 <= 10
-    ? 'aга'
-    : 'нет';
-
-console.log(a);
+// console.log('До');
+// alert('qweqweqwe');
+// console.log('После');

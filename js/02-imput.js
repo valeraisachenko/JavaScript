@@ -1,15 +1,12 @@
 /*
- * Напиши скрипт поиска самого маленького числа в массиве,
- * при условии что числа уникальные (не повторяются).
+ * - Ввод пользовователя
+ * - Методы window.confirm() и window.prompt()
  */
 
-const numbers = [51, 18, 13, 24, 7, 85, 19];
-let smallestNumber = numbers[0];
+// const shouldRenew = confirm('Хотите продлить подписку?');
+// console.log(shouldRenew);
 
-for (const number of numbers) {
-  if (number < smallestNumber) {
-    smallestNumber = number;
-  }
-}
-
-console.log('smallestNumber: ', smallestNumber);
+// let quantity = prompt('Введите количество товаров');
+// quantity = Number(quantity);
+// console.log(quantity);
+// console.log(typeof quantity);
